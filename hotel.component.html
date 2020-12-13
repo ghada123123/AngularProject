@@ -1,0 +1,23 @@
+<form>
+<div class="container">
+<div class="col-md-3" *ngIf="product.price <priceInput || priceInput==null">
+  <div class="card" style="width: 18rem;">
+    <div class="main">
+    <div class="card-body">
+<div class="box">
+      <img class="img-thumbnail" src="{{product.image}}">
+      <h5 class="card-title"> {{product.title}} </h5>
+      <p class="card-text"> {{product.price}} Dt</p>
+      <a routerLink="detail/{{product.id}}">detail</a>
+      <button class="btn btn-danger" (click)="sendNotif()" style="float: right">
+        {{product.like}} -- like<3
+      </button>
+    </div>
+    </div>
+    </div>
+  </div>
+</div>
+</div>
+</form>
+
+

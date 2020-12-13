@@ -1,0 +1,34 @@
+{
+  "reservations": [
+    {
+      "date": "2020-12-12T23:08:11.549Z",
+      "id": "45100000",
+      "nom": "hello",
+      "prenom": "word",
+      "nmbrpersonne": 4
+    }
+  ],
+  "hotels": [
+    {
+      "id": "45",
+      "title": "gh",
+      "price": "45",
+      "description": "gllll",
+      "image": "https://www.marhba.com/images/tourisme/Cover2.jpg"
+    },
+    {
+      "id": "4",
+      "title": "gh",
+      "price": "22",
+      "description": "gllll",
+      "image": "https://www.marhba.com/images/tourisme/Cover2.jpg"
+    },
+    {
+      "id": "5",
+      "title": "gh",
+      "price": "5555",
+      "description": "gllll",
+      "image": "https://www.marhba.com/images/tourisme/Cover2.jpg"
+    }
+  ]
+}

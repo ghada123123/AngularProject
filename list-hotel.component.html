@@ -1,0 +1,23 @@
+<br>
+<h1 style="color: red">Enjoy.tn<span class="dotcom"></span></h1>
+
+<form>
+  <div class="container">
+  <div class="form-group">
+    <label>Recherche</label>
+    <input name="priceMax" type="number" [(ngModel)]="priceMax" class="form-control col-md-6" >
+  </div>
+  </div>
+
+</form>
+<br>
+
+<div class="row">
+  <app-hotel
+    *ngFor="let p of listHotel; let i = index" [product]="p" [recipeId]="i"
+               (notifLike)="incrementLike($event)"
+    [priceInput]="priceMax">
+
+  </app-hotel>
+
+</div>
